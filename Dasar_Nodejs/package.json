@@ -1,0 +1,18 @@
+{
+  "name": "nodejs_train",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SET NODE_ENV=production && node process.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
