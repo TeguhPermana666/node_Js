@@ -13,3 +13,15 @@ init();
 
 const val = process.memoryUsage();
 console.log(val);
+
+const first_name = process.argv[2];
+const last_name = process.argv[3];
+// node process.js harry potter 
+/*
+Elemen pertama : Alamat (path) lengkap dari lokasi node yang menjalankan prosesnya.
+Element kedua : Alamat (path) berkas JavaScript yang dieksekusi (app.js)
+Element ketiga : “harry”
+Element keempat : “potter”
+*/
+ 
+console.log(`Hello ${first_name} ${last_name}`)
